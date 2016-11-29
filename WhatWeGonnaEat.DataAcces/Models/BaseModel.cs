@@ -5,9 +5,13 @@ namespace WhatWeGonnaEat.DataAcces.Models
 {
     public abstract class BaseModel : INotifyPropertyChanged
     {
-        public int Id { get; set; }
 
         public event PropertyChangedEventHandler PropertyChanged;
+
+        /// <summary>
+        /// All models have a Unique Identifier
+        /// </summary>
+        public int Id { get; set; }
 
         /// <summary>
         /// This wil Notify when the properties are changed, used for updating the user interfac(GUI)
