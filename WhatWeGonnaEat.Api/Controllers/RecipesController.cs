@@ -7,7 +7,7 @@ namespace WhatWeGonnaEat.Api.Controllers
     {
         public IHttpActionResult Get()
         {
-            return Ok("This is a test");
+            return Ok("We gonna eat Lasanga");
         }
     }
 }

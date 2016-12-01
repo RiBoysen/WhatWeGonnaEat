@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatWeGonnaEat.Common", "Wh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatWeGonnaEat.DataAcces", "WhatWeGonnaEat.DataAcces\WhatWeGonnaEat.DataAcces.csproj", "{2B80894A-5BF5-4FC0-9AD0-0D02C6A8FCC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatWeGonnaEat.Bot", "WhatWeGonnaEat.Bot\WhatWeGonnaEat.Bot.csproj", "{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{2B80894A-5BF5-4FC0-9AD0-0D02C6A8FCC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B80894A-5BF5-4FC0-9AD0-0D02C6A8FCC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B80894A-5BF5-4FC0-9AD0-0D02C6A8FCC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BA1066-5695-4D71-ABB4-65E5A5E0C3D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
